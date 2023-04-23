@@ -11,7 +11,7 @@ def generate_pie_chart(labels, values):
   ax.pie(values, labels=labels)
   #organiza en el centro y como un circulo
   ax.axis('equal')
-  plt.savefig('pie.png')
+  plt.savefig('chart_pie_final.png')
   plt.close()
 
 if __name__ == '__main__':
